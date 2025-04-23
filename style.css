@@ -4,7 +4,7 @@
             background-color: aqua;
             text-align: left;
             flex-wrap:nowrap;
-            padding: 0%;
+            padding: 0%;    
             margin:0;
         }
         .navbar a {
@@ -28,8 +28,44 @@
     width: 15cm;
   }
 h1{
-    font-size: larger;
+    font-size: 40px;
 }
-  .home{
+.home{
     display:flex;
   }
+.contact{
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    padding: 30px;
+    width: 60%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}  
+.h1{
+    font-size: 2rem;
+    color:black;
+    margin-bottom:10px;
+}
+.from input,.from textarea{
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+.button{
+     background-color:orange;
+     color:black;
+     padding:10px 20px;
+     border:none;
+     border-radius: 5px;
+     font-size: 5px;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+}
