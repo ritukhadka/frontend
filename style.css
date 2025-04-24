@@ -1,8 +1,8 @@
 
        
     .navbar{
-            background-color: aqua;
-            text-align: left;
+            background-color: #190019;
+            text-align: center;
             flex-wrap:nowrap;
             padding: 0%;    
             margin:0;
@@ -12,11 +12,7 @@
             padding-right: 25px;
             margin: 10px;
             text-decoration: none;
-        }
-        .navbar .right-nav{
-            align-items: right;
-            font-size: 25px;
-            color:rgb(255,0,0);
+            color: bisque;
         }
         .navbar a:hover{
         color:aliceblue;
@@ -33,25 +29,43 @@ h1{
 .home{
     display:flex;
   }
-.contact{
-    text-align: center;
-    box-sizing: border-box;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+  .content{
+    display: inline  ;
+    justify-content: center;
+    align-items: center;
+    width: 50vb;
+
+  }
+  .contact-container {
+    background-color:#fff7f2;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
     padding: 30px;
     width: 60%;
+    text-align: center;
     margin: 20px auto;
+}
+
+.contact-container h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-container p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.form {
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
-}  
-.h1{
-    font-size: 2rem;
-    color:black;
-    margin-bottom:10px;
 }
-.from input,.from textarea{
+
+.form input, .form textarea {
     width: 100%;
     max-width: 400px;
     padding: 10px;
@@ -59,13 +73,42 @@ h1{
     border: 1px solid #ccc;
     font-size: 1rem;
 }
-.button{
-     background-color:orange;
-     color:black;
-     padding:10px 20px;
-     border:none;
-     border-radius: 5px;
-     font-size: 5px;
-     cursor: pointer;
-     transition: background-color 0.3s ease;
+
+.form input:focus, .form textarea:focus {
+    outline: none;
+    border-color:#522b5b;
+    box-shadow: 0 0 5px #88678f;
+}
+
+.submit-btn {
+    background-color:#854f6c ;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 5PX;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #522b5b;
+}
+.footer {
+    text-align: center; 
+    padding: 50px;
+    margin: 20px;
+    border: 20px;
+    font-size: 20px;
+}
+.footer p{
+    font-size: 40px;
+}
+.footer a{
+    text-decoration: none;
+    
+}
+.footer a:hover{
+    color:rgb(3, 3, 58) ;
+
 }
