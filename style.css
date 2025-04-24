@@ -109,6 +109,24 @@ h1{
     
 }
 .footer a:hover{
-    color:rgb(3, 3, 58) ;
-
+    color:rgb(3, 3, 58);
+}
+.project{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border: 50px;
+}
+.left{
+    padding: 50px;
+    border: 20px;
+    margin: 40px;
+}
+.right{
+    padding: 50px;
+    border: 20px;
+    margin: 40px;
+}
+h2{
+    text-align: center;
 }
