@@ -6,6 +6,16 @@
             flex-wrap:nowrap;
             padding: 0%;    
             margin:0;
+    }        
+    .nav link{
+            background-color: #88678f;
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 60px;
+            right: 20px;
+            padding: 15px;
+            border-radius: 8px;
         }
         .navbar a {
             font-size: 40px;
@@ -13,15 +23,16 @@
             margin: 10px;
             text-decoration: none;
             color: bisque;
+            transition: all 0.3s ease;
         }
         .navbar a:hover{
         color:aliceblue;
-        
-        }
-        
-  img{
-    height: 10cm;
+    }
+ .mountain img{
+  
+    height: 15cm;
     width: 15cm;
+    border-radius: 10cm;
   }
 h1{
     font-size: 40px;
@@ -100,6 +111,7 @@ h1{
     margin: 20px;
     border: 20px;
     font-size: 20px;
+
 }
 .footer p{
     font-size: 40px;
@@ -113,20 +125,30 @@ h1{
 }
 .project{
     display: flex;
-    text-align: center;
-    align-items: center;
-    border: 50px;
+    border: 40px;
+    justify-content: center;
+    background-color: #fff7f2;
 }
 .left{
-    padding: 50px;
-    border: 20px;
-    margin: 40px;
+    padding: 10px;
+    text-align: center;
 }
 .right{
-    padding: 50px;
-    border: 20px;
-    margin: 40px;
+    padding: 10px;
+    text-align: center;
 }
 h2{
+    text-align: center;
+}
+.left img{
+    height: 200px;
+    width: 100%;
+}
+.right img{
+    height: 200px;
+    width: 100%;
+}
+.my{
+    padding: 100px;
     text-align: center;
 }
