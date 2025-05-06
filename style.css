@@ -6,6 +6,7 @@
             flex-wrap:nowrap;
             padding: 0%;    
             margin:0;
+            display: flex;
     }        
     .nav link{
             background-color: #88678f;
@@ -25,11 +26,15 @@
             color: bisque;
             transition: all 0.3s ease;
         }
+        .nav-link.active{
+            display: flex;
+        }
+       
         .navbar a:hover{
         color:aliceblue;
     }
  .mountain img{
-  
+    
     height: 15cm;
     width: 15cm;
     border-radius: 10cm;
